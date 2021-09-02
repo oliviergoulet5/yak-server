@@ -1,0 +1,27 @@
+{
+  "name": "yak-server",
+  "version": "1.0.0",
+  "description": "The server for the Yak chat application",
+  "main": "dist/src/index.js",
+  "author": "Olivier Goulet",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "nodemon dist/src/index.js",
+    "start": "node dist/src/index.js"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "argon2": "^0.28.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/mongoose": "^5.11.97",
+    "typescript": "^4.4.2"
+  }
+}
